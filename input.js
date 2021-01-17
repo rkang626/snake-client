@@ -1,4 +1,4 @@
-const handleUserInput = function() {
+const handleUserInput = function(key) {
   if (key === '\u0003') {
     console.log();
     process.exit();
