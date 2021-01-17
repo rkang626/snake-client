@@ -13,11 +13,13 @@ const handleUserInput = function(key) {
     connection.write('Move: down');
   } else if (key === '\u0064') {
     connection.write('Move: right');
+  } else if (key === '\u0071') {
+    connection.write('Say: Wee');
   }
 };
 
 /**
- * Setup User Interface 
+ * Setup User Interface
  * Specifically, so that we can handle user input via stdin
  */
 const setupInput = function(conn) {
